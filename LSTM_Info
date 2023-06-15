@@ -1,2 +1,0 @@
-LSTM is a type of recurrent neural network (RNN), which is getting used to solve the difficulty in learning. The  RNNs are not able to learn very long time dependent information. In the cases like long dependencies, where space between
-the important information and the output place is small, RNNs do not perform well with such long dependencies. 
