@@ -1,0 +1,8 @@
+Based on the relevant literature and reviews from experts, some input features were identified which includes historical consumption values,
+average price of natural gas, average temperature, export and population of the state. These variables are closely related to the consumption 
+of natural gas. 
+The records were obtained over the period Jan,2001-March,2022 from different sources. The data we collected originates from U.S. Energy Information Administration (EIA) https://www.eia.gov/naturalgas/data.php
+Monthly prices are measured in Dollars per Million BTU (British Thermal Unit). opulation and average monthly temperature is taken into consideration. 
+Monthly population of United States is taken from Federal Reserve Economic Data (FRED)https://fred.stlouisfed.org/series/POPTHM.
+The average monthly temperature of US is accessed from National Centers for Environmental Information (NCEI)https://www.ncdc.noaa.gov/cag/national/mapping/110-tavg.xml.
+The Fahrenheit scale is used.
