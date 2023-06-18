@@ -4,6 +4,28 @@ All the tests are evaluated and executed with use of Python
 and the libraries Tensorflow, SciKit-Learn, Pandas, Numpy,
 Matplotlib and Seaborn.
 
+#Performance Measures Used
+To compare the results with existing works, some measures
+are chosen to evaluate the approaches performance. Evaluation
+parameters that are relevant to this project are:
+
+![f1](https://github.com/sonijee/Predictions/assets/136623761/b4c8f7e1-e867-4174-98aa-034710d77f38)
+
+R2 or R-Squared is a goodness of fit variable for the
+regression models. Usually larger the R2 value, fitness
+of the model is better into observations.
+
+![f2](https://github.com/sonijee/Predictions/assets/136623761/56237949-7ac1-441c-a9fc-c3473e64082f)
+
+When MAPE error percentage is closer to 100%, it
+represents that the prediction is very inaccurate, while
+value closer to 0% indicates an accurate prediction.
+Notations used in the formulae are: n is the number of data
+points, yi is the actual value of ith data point and xi is the predicted value of i
+th data point.
+
+
+#Experiment and Results
 
 For the implementation, comparison of dropout rate, timesteps
 input, batch size has been evaluated as shown in Tabel II, III
@@ -44,5 +66,6 @@ natural gas consumption. Results in Table V shows that LSTM
 slightly outperform the SVR method which uses cubic polynomial kernel function with insensitive coefficient ϵ = 0.001 and
 regularization parameter C = 1.
 ![r1](https://github.com/sonijee/Predictions/assets/136623761/1a7b38c9-a31c-4517-9b6a-fdce88151971)
+
 Figure shows forecasting  of natural gas consumption using LSTM.
 
