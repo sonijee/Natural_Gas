@@ -1,14 +1,24 @@
-# Predictions
-A forecasting model for natural gas consumption can predict gas demand and make the policymakers manage the strategy for the future.
-This work proposed a neural network based model to estimate the natural gas demand for upcoming months using a Long Short Term Memory network.
-Based on the relevant literature and reviews from experts, some input features were identified which includes historical consumption values, average price of natural gas, average temperature, export and population of the state. These variables are closely related to the 
-consumption of natural gas. 
-The records were obtained over the period Jan,2001-March,2022 from different sources. The data we collected originates from U.S. Energy Information Administration (EIA) https://www.eia.gov/naturalgas/data.php
-Monthly prices are measured in Dollars per Million BTU (British Thermal Unit). opulation and average monthly temperature is taken into consideration. 
-Monthly population of United States is taken from Federal Reserve Economic Data (FRED)https://fred.stlouisfed.org/series/POPTHM.
-The average monthly temperature of US is accessed from National Centers for Environmental Information (NCEI)https://www.ncdc.noaa.gov/cag/national/mapping/110-tavg.xml.
-The Fahrenheit scale is used.
-For analysis of relationship strength between different variables, a correlation matrix is used which shows correlation coefficients between input features. Values near -1 indicates the negative linear correlation while
-0 represents no correlation between two attributes.  Values near 1 indicates the positive linear correlation. 
-![hmap](https://github.com/sonijee/Predictions/assets/136623761/d8f65896-78b0-4ef1-9e7e-42182b38c086)
-
+# Natural Gas Demand Prediction
+In the era of growth and industrialization, Fossil fuel sources
+are exhausting and discovered day by day. To maintain a
+healthy environment for future generations, reduction in
+Carbon-dioxide (CO2) emission is an important step.
+Since the world cannot be fully dependent on renewable
+energy resources, we need to focus on non-renewable
+resources which are less harmful to the environment. Natural
+and petroleum gas is such a great option to fulfill the
+demands of the industries as well as other energy-consuming
+stakeholders. International Energy Agency (IEA) report
+published in October 2021 shows that unplanned supply
+outages of natural gas and strong recovery in demand led to
+higher gas prices. In past decades, the consumption of
+natural gas has seen continuous growth globally. But due to
+COVID19, there was a decrease in consumption, and supply
+was not adjusted according to demand which brings new
+opportunities and challenges to the global gas systems.
+![f1](https://github.com/sonijee/Predictions/assets/136623761/7c6c727f-f294-4129-b982-5713c8344cf3)
+Therefore, it is essential to have forecasting of natural
+gas demand for sustainable development of countries. It can be
+observed from the Figure that gas consumption is rising since
+1990 from 2058 bcm (Billion Cubic Meters) to 3952 bcm in
+2020.
